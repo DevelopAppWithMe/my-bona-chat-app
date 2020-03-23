@@ -1,6 +1,9 @@
 {
   "name": "bona",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.16.x"
+  }
   "description": "This is a website to message without makeing profile.",
   "main": "server.js",
   "scripts": {
