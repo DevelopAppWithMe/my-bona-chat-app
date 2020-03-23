@@ -1,0 +1,16 @@
+{
+  "name": "bona",
+  "version": "1.0.0",
+  "description": "This is a website to message without makeing profile.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Jay Sachin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "sqlite3": "^4.1.1"
+  }
+}

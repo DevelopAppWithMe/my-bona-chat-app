@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(189, 189, 189);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-size: 17pt;
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    box-shadow: 1px 1px 15px #ddd;
+}
+
+
+.msgBubble{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 14px #ddd;
+    padding: 7px;
+    margin: 10px;
+}
