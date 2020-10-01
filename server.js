@@ -7,7 +7,7 @@ let db = new sqlite.Database("database.db" , (err)=>{
     if (err){
         console.log('BHAG JAAO YAHA SE TERA DATABASE NHI BNA')
     }else{
-        console.log('DATABASE BAN GAYA')
+        console.log('DATABASE Updated')
     }
 });
 
@@ -29,7 +29,7 @@ app.use(express.static('public'))
 app.use(express.json())
 
 app.post("/saveMessage" , (req , res)=>{
-    console.log("Data mil gaya")
+    console.log("Data fetched")
 
     let data = req.body
 
